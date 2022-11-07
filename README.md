@@ -42,10 +42,9 @@ You can also omit personal details from the profile, allowing you to just specif
 ### Configuration Profile Reference
 | Key  | Description  | Example  |  Notes |
 |---|---|---|---|
-|  PayloadType | Mac: com.vpntracker.365mac
-iOS: com.vpntracker.next  |  |  |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| PayloadType | Mac: com.vpntracker.365mac iOS: com.vpntracker.next |  |  |
+| Managed_Onboarding_TeamAPIToken  | The team's API Token | -  | Find yours at [my.vpntracker.com/teamprofile](my.vpntracker.com/teamprofile) |
+| Managed_Onboarding_EmailDomains  | A comma-separated list of email domains that users are allowed to use when joining your team  | yourcompany.example, subdomain.example.com, *.yourcompany.example  |   |
 
 
 ### Team Discovery and Email Domain Capture
