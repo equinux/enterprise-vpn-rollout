@@ -46,10 +46,10 @@ You can also omit personal details from the profile, allowing you to just specif
 | Managed_Onboarding_TeamAPIToken  | The team's API Token | -  | Find yours at [https://my.vpntracker.com/teamprofile](my.vpntracker.com/teamprofile) |
 | Managed_Onboarding_EmailDomains  | A comma-separated list of email domains that users are allowed to use when joining your team  | yourcompany.example, subdomain.example.com, *.yourcompany.example  |   |
 | Managed_Onboarding_Greeting|A message to display to users in the first welcome screen. |"Any questions? Join #internalservices on the company Slack" | |
-| Managed_Onboarding_Email | The email address the user will use to sign in to VPN Tracker, when deploying a personalized profile. Enter a placeholder for the user's email address provided by your MDM solution. | $$email$$ |Optional|
-| Managed_Onboarding_GivenName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | $$firstname$$ | Optional |
-| Managed_Onboarding_FamilyName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | $$surname$$ | Optional |
-| Managed_Onboarding_FullName|Used in the onboarding greeting.| $$name$$ | Provided for systems that don't offer separate first and last name fields |
+| Managed_Onboarding_Email | The email address the user will use to sign in to VPN Tracker, when deploying a personalized profile. Enter a placeholder for the user's email address provided by your MDM solution. | `email placeholder` |Optional|
+| Managed_Onboarding_GivenName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | `firstname placeholder` | Optional |
+| Managed_Onboarding_FamilyName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | `surname placeholder` | Optional |
+| Managed_Onboarding_FullName|Used in the onboarding greeting.| `name placeholder` | Provided for systems that don't offer separate first and last name fields |
 
 ### Team Discovery and Email Domain Capture
 Coming soon
