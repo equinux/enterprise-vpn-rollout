@@ -1,4 +1,4 @@
-# enterprise-vpn-rollout
+# Enterprise VPN Deployment Guide for macOS and iOS devices
 Documentation and how-tos on deploying VPN Tracker in organizations using configuration profiles.
 
 ## Overview
@@ -9,12 +9,12 @@ VPN Tracker is an enterprise VPN client for macOS, iOS and iPadOS. It supports t
 - PPTP (macOS)
 - SSTP
 - AnyConnect SSL
-- Fortinet SSL
-- SonicWall SSL
+- Fortinet IPsec and SSL
+- SonicWall IPsec and SSL
 -  WireGuard®
 
 # Enterprise Rollout
-There are several ways to roll VPN Tracker out to your organization. This guide gives provides detailed steps for some of the options. Please reach out to our team, report an issue or open a pull request if you have any questions.
+There are several ways to roll VPN Tracker out to your organization. This guide you through the steps for our recommended option. Please reach out to our team, report an issue or open a pull request if you have any questions.
 
 ### Pre-requisites
 Before you start rolling out VPN Tracker, this guide assumes that
