@@ -50,7 +50,7 @@ We offer a Profile Manifest file that can be used with compatible Config Profile
 Get the Profile manifest file
 
 #### Using your MDM solution
-If you MDM solution supports importing a payload, you can download a ready-made payload from my.vpntracker.
+If you MDM solution supports importing a payload, you can [download a ready-made payload from my.vpntracker](https://my.vpntracker.com/team/details).
 For MDM solutions that support manual key / value entry, you can find our supported key reference below:
 
 ### Configuration Profile Reference
@@ -75,4 +75,4 @@ We offer the following ways of installing VPN Tracker for Mac:
 Add your organization's domain to your VPN Tracker team to suggest your team to users signing up with associated email addresses. Team managers will receive an email to manually approved signup requests.
 
 ## Self-service signup Link
-You can also post your Team's signup link, e.g. on an internal webpage so employees can sign up without needing an invite. Team managers will receive an email to manually approved these signups.
+You can also post your [Team's signup link](https://my.vpntracker.com/team/details), e.g. on an internal webpage so employees can sign up without needing an invite. Team managers will receive an email to manually approved these signups.
