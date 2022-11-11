@@ -2,7 +2,7 @@
 Documentation and how-tos on deploying VPN Tracker in organizations using configuration profiles.
 
 ## Overview
-VPN Tracker is an enterprise VPN client for macOS, iOS and iPadOS. It supports the following VPN protocols:
+This guide describes how to deploy VPN Tracker, an enterprise-ready VPN solution for Mac, iPhone and iPad devices with support for the following VPN protocols:
 - IPsec
 - L2TP (macOS)
 - OpenVPN
@@ -11,7 +11,9 @@ VPN Tracker is an enterprise VPN client for macOS, iOS and iPadOS. It supports t
 - AnyConnect SSL
 - Fortinet IPsec and SSL
 - SonicWall IPsec and SSL
--  WireGuard®
+- WireGuard®
+
+The best corporate network security practises need to 
 
 # Enterprise Rollout
 There are several ways to roll VPN Tracker out to your organization. This guide you through the steps for our recommended option. Please reach out to our team, report an issue or open a pull request if you have any questions.
@@ -39,6 +41,18 @@ This allows you to pre-fill the email address and personal details used to sign 
 **B. General Onboarding Profile**
 You can also omit personal details from the profile, allowing you to just specify the team a user will join and optionally require their sign-up email address to be from your organization's domain.
 
+## How to create your Boarding Profile
+
+#### Using a Profile Editor
+You can use a Configuration Profile editing tool, e.g. Profile Creator or iMazing Profile Editor to create a custom Boarding Profile for your team.
+
+We offer a Profile Manifest file that can be used with compatible Config Profile editors:
+Get the Profile manifest file
+
+#### Using your MDM solution
+If you MDM solution supports importing a payload, you can download a ready-made payload from my.vpntracker.
+For MDM solutions that support manual key / value entry, you can find our supported key reference below:
+
 ### Configuration Profile Reference
 | Key  | Description  | Example  |  Notes |
 |---|---|---|---|
@@ -51,14 +65,14 @@ You can also omit personal details from the profile, allowing you to just specif
 | Managed_Onboarding_FamilyName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | `surname placeholder` | Optional |
 | Managed_Onboarding_FullName|Used in the onboarding greeting.| `name placeholder` | Provided for systems that don't offer separate first and last name fields |
 
-### Team Discovery and Email Domain Capture
-Coming soon
-
-### Self-service signup Link
-Coming soon
-
 ## Deploying apps
 We offer the following ways of installing VPN Tracker for Mac:
 - Zip file
 - macOS Installer Package
 - Homebrew
+
+## Team Discovery and Email Domain Capture
+Add your organization's domain to your VPN Tracker team to suggest your team to users signing up with associated email addresses. Team managers will receive an email to manually approved signup requests.
+
+## Self-service signup Link
+You can also post your Team's signup link, e.g. on an internal webpage so employees can sign up without needing an invite. Team managers will receive an email to manually approved these signups.
