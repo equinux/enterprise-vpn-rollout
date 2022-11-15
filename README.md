@@ -54,16 +54,16 @@ If you MDM solution supports importing a payload, you can [download a ready-made
 For MDM solutions that support manual key / value entry, you can find our supported key reference below:
 
 ### Configuration Profile Reference
-| Key  | Description  | Example  |  Notes |
+| Key  | Description  | Notes  |  Type |
 |---|---|---|---|
-| PayloadType | Mac: com.vpntracker.365mac iOS: com.vpntracker.next |  |  |
-| Managed_Onboarding_TeamAPIToken  | The team's API Token | -  | Find yours at [https://my.vpntracker.com/teamprofile](my.vpntracker.com/teamprofile) |
-| Managed_Onboarding_EmailDomains  | A comma-separated list of email domains that users are allowed to use when joining your team  | yourcompany.example, subdomain.example.com, *.yourcompany.example  |   |
-| Managed_Onboarding_Greeting|A message to display to users in the first welcome screen. |"Any questions? Join #internalservices on the company Slack" | |
-| Managed_Onboarding_Email | The email address the user will use to sign in to VPN Tracker, when deploying a personalized profile. Enter a placeholder for the user's email address provided by your MDM solution. | `email placeholder` |Optional|
-| Managed_Onboarding_GivenName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | `firstname placeholder` | Optional |
-| Managed_Onboarding_FamilyName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | `surname placeholder` | Optional |
-| Managed_Onboarding_FullName|Used in the onboarding greeting.| `name placeholder` | Provided for systems that don't offer separate first and last name fields |
+| PayloadType | Mac: com.vpntracker.365mac iOS: com.vpntracker.next |  | `String` |
+| Managed_Onboarding_TeamAPIToken  | The team's API Token | Find yours at [https://my.vpntracker.com/teamprofile](my.vpntracker.com/teamprofile)  | `String` |
+| Managed_Onboarding_EmailDomains  | A comma-separated list of email domains that users are allowed to use when joining your team  | `yourcompany.example.com, subdomain.example.com, *.yourcompany.example`  | `String`  |
+| Managed_Onboarding_Greeting|A message to display to users in the first welcome screen. |"Any questions? Join #internalservices on the company Slack" | `String`|
+| Managed_Onboarding_Email | The email address the user will use to sign in to VPN Tracker, when deploying a personalized profile. Enter a placeholder for the user's email address provided by your MDM solution. | `email placeholder` | `String` |
+| Managed_Onboarding_GivenName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | `firstname placeholder` | `String` |
+| Managed_Onboarding_FamilyName | Used in the onboarding greeting and during VPN Tracker account registration for new users. | `surname placeholder` | `String` |
+| Managed_Onboarding_FullName|Used in the onboarding greeting.| `name placeholder` | `String` |
 
 ## Deploying apps
 We offer the following ways of installing VPN Tracker for Mac:
