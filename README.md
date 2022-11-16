@@ -18,7 +18,7 @@ There are several ways to roll VPN Tracker out to your organization. This guide 
 ### Pre-requisites
 Before you start rolling out VPN Tracker, this guide assumes that
 - You already have a working VPN Tracker connection
-- You have a VPN Tracker VIP license as a manager on your team
+- You have a VPN Tracker team and have the manager role
 - You are familiar with Configuration Profiles for Mac or iOS devices
 
 ## Onboarding Team Members via Configuration Profiles
