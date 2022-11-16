@@ -47,7 +47,8 @@ You can also omit personal details from the profile, allowing you to just specif
 You can use a Configuration Profile editing tool, e.g. Profile Creator or iMazing Profile Editor to create a custom Boarding Profile for your team.
 
 We offer a Profile Manifest file that can be used with compatible Config Profile editors:
-Get the Profile manifest file
+
+[Get the Profile manifest file](/manifest)
 
 #### Using your MDM solution
 If you MDM solution supports importing a payload, you can [download a ready-made payload from my.vpntracker](https://my.vpntracker.com/team/details).
