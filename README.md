@@ -11,10 +11,9 @@ This guide describes how to deploy [VPN Tracker](https://www.vpntracker.com?utm_
 - SonicWall IPsec and SSL
 - WireGuard®
 
-The best corporate network security practises need to 
 
 # Enterprise Rollout
-There are several ways to roll VPN Tracker out to your organization. This guide you through the steps for our recommended option. Please reach out to our team, report an issue or open a pull request if you have any questions.
+There are several ways to roll VPN Tracker out to your organization. This guide you through the steps for our recommended option. Please [reach out to our team](https://www.vpntracker.com/us/faq//2/?site=vpntracker.com&ci=default&&tab=contact), report an issue or open a pull request if you have any questions.
 
 ### Pre-requisites
 Before you start rolling out VPN Tracker, this guide assumes that
