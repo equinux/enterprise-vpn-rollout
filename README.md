@@ -33,10 +33,12 @@ Using the profile you can
 Two use cases are supported
 
 **A. Personalized Onboarding Profile with an MDM solution**
+
 If your organization's devices are enrolled with an MDM solution, you can push a customized profile onto each user's device. 
 This allows you to pre-fill the email address and personal details used to sign up for VPN Tracker, so the new user only needs to set a password.
 
 **B. General Onboarding Profile**
+
 You can also omit personal details from the profile, allowing you to just specify the team a user will join and optionally require their sign-up email address to be from your organization's domain.
 
 ## How to create your Boarding Profile
