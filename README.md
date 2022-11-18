@@ -1,5 +1,5 @@
 # Enterprise VPN Deployment Guide for macOS and iOS devices
-![VPNT-Github-Header](https://user-images.githubusercontent.com/388183/202674169-25f98dd8-b809-4b04-9e88-6f7f76156ca2.jpg)
+[![VPNT-Github-Header](https://user-images.githubusercontent.com/388183/202674169-25f98dd8-b809-4b04-9e88-6f7f76156ca2.jpg)](https://www.vpntracker.com/us/teams.html)
 
 This guide describes how to deploy [VPN Tracker](https://www.vpntracker.com?utm_source=github&utm_medium=web&utm_campaign=mdmconfig), an enterprise-ready VPN solution for Mac, iPhone and iPad devices with support for the following VPN protocols:
 - IPsec
