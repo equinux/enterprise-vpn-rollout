@@ -1,8 +1,7 @@
 # Enterprise VPN Deployment Guide for macOS and iOS devices
-Documentation and how-tos on deploying VPN Tracker in organizations using configuration profiles.
+[![VPNT-Github-Header](https://user-images.githubusercontent.com/388183/202674169-25f98dd8-b809-4b04-9e88-6f7f76156ca2.jpg)](https://www.vpntracker.com/us/teams.html)
 
-## Overview
-This guide describes how to deploy VPN Tracker, an enterprise-ready VPN solution for Mac, iPhone and iPad devices with support for the following VPN protocols:
+This guide describes how to deploy [VPN Tracker](https://www.vpntracker.com?utm_source=github&utm_medium=web&utm_campaign=mdmconfig), an enterprise-ready VPN solution for Mac, iPhone and iPad devices with support for the following VPN protocols:
 - IPsec
 - L2TP (macOS)
 - OpenVPN
@@ -13,15 +12,14 @@ This guide describes how to deploy VPN Tracker, an enterprise-ready VPN solution
 - SonicWall IPsec and SSL
 - WireGuard®
 
-The best corporate network security practises need to 
 
 # Enterprise Rollout
-There are several ways to roll VPN Tracker out to your organization. This guide you through the steps for our recommended option. Please reach out to our team, report an issue or open a pull request if you have any questions.
+There are several ways to roll VPN Tracker out to your organization. This guide you through the steps for our recommended option. Please [reach out to our team](https://www.vpntracker.com/us/faq//2/?site=vpntracker.com&ci=default&&tab=contact), report an issue or open a pull request if you have any questions.
 
 ### Pre-requisites
 Before you start rolling out VPN Tracker, this guide assumes that
 - You already have a working VPN Tracker connection
-- You have a VPN Tracker VIP license as a manager on your team
+- You have a VPN Tracker team and have the manager role
 - You are familiar with Configuration Profiles for Mac or iOS devices
 
 ## Onboarding Team Members via Configuration Profiles
@@ -35,10 +33,12 @@ Using the profile you can
 Two use cases are supported
 
 **A. Personalized Onboarding Profile with an MDM solution**
+
 If your organization's devices are enrolled with an MDM solution, you can push a customized profile onto each user's device. 
 This allows you to pre-fill the email address and personal details used to sign up for VPN Tracker, so the new user only needs to set a password.
 
 **B. General Onboarding Profile**
+
 You can also omit personal details from the profile, allowing you to just specify the team a user will join and optionally require their sign-up email address to be from your organization's domain.
 
 ## How to create your Boarding Profile
@@ -47,7 +47,8 @@ You can also omit personal details from the profile, allowing you to just specif
 You can use a Configuration Profile editing tool, e.g. Profile Creator or iMazing Profile Editor to create a custom Boarding Profile for your team.
 
 We offer a Profile Manifest file that can be used with compatible Config Profile editors:
-Get the Profile manifest file
+
+[Get the Profile manifest file](/manifest)
 
 #### Using your MDM solution
 If you MDM solution supports importing a payload, you can [download a ready-made payload from my.vpntracker](https://my.vpntracker.com/team/details).
