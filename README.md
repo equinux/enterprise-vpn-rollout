@@ -67,10 +67,11 @@ For MDM solutions that support manual key / value entry, you can find our suppor
 | Managed_Onboarding_FullName|Used in the onboarding greeting.|   | `String` |
 
 ## Deploying apps
-We offer the following ways of installing VPN Tracker for Mac:
+There are several ways you can install VPN Tracker for Mac:
 - [Zip file](https://www.vpntracker.com/goto/gh/vpntenterpriseinstaller)
 - [macOS Installer Package](https://www.vpntracker.com/goto/gh/vpntenterpriseinstaller)
-- Homebrew: ` brew install vpntracker`
+- Homebrew: `brew install vpntracker`
+- [Installomator](https://github.com/Installomator/Installomator) using label `vpntracker365`
 
 ## Team Discovery and Email Domain Capture
 Add your organization's domain to your VPN Tracker team to suggest your team to users signing up with associated email addresses. Team managers will receive an email to manually approved signup requests.
